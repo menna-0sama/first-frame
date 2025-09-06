@@ -1,0 +1,79 @@
+.bg-blue{
+  background-color: #2C3E50;
+}
+.text-blue{
+  color: #2C3E50;
+}
+.nav-link.active {
+  background-color:#2EBC9C ;
+  border-radius: 10px;
+}
+.vh-90{
+  min-height: 80vh;
+}
+.bg-dark-blue{
+  background-color: #1A252F;
+}
+.line{
+  width: 90px;
+  height: 5px;
+}
+/* Home */
+.home{
+  background-color: #2EBC9C;
+  .avatar{
+    width: 300px;
+  }
+  
+}
+/* About */
+.about {
+  background-color: #2EBC9C;
+}
+.btn{
+   background-color: #2EBC9C;
+   &:hover{
+    background-color: #22957a;
+    color: #fff;
+   }
+}
+/* Protfolio */
+.port-img .inner{
+  .layer{
+    background-color: #2ebc9bbc;
+    opacity: 0;
+    transition: 500ms;
+  }
+  &:hover .layer{
+    opacity: 1;
+  }
+}
+.modal{
+  background-color: rgba(134, 182, 254, 0.489);
+}
+/* Contact */
+.form-control:focus{
+  box-shadow: none;
+  transition: 500ms;
+}
+
+label{
+  position:absolute ;
+  z-index: -1;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+/* Footer */
+.upper-footer li i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
